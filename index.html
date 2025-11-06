@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IB Physics: The Michelson-Morley Experiment</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Set the Inter font family */
+        html {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Add a fallback font stack */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+
+    <!-- Main Content Container -->
+    <div class="max-w-3xl mx-auto p-6 md:p-10">
+
+        <!-- Header -->
+        <header class="mb-8 border-b-2 border-blue-500 pb-4">
+            <h1 class="text-3xl md:text-4xl font-bold text-gray-900">
+                🚀 A Student's Guide to the Michelson-Morley Experiment
+            </h1>
+            <p class="text-lg text-gray-600 mt-2">
+                How the "Most Famous Failed Experiment" Built the Foundation for Special Relativity
+            </p>
+        </header>
+
+        <!-- Main Article Content -->
+        <article class="space-y-8">
+
+            <!-- Section 1: The Old Idea -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">1. 🌍 The Old Idea: The "Luminiferous Aether"</h2>
+                <p class="mb-4">
+                    Before Einstein, 19th-century physics had a problem.
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Light was known to be a wave.</li>
+                    <li>All other waves we know (sound, water) need a <strong>medium</strong> to travel through (air, water).</li>
+                    <li>Therefore, physicists assumed light must travel through an invisible, universal medium called the <strong>"luminiferous aether."</strong></li>
+                </ul>
+                <p class="mt-4">
+                    This aether was thought to be a fixed "background" to the universe. As the Earth orbits the Sun, it must be moving <em>through</em> this aether, creating an <strong>"aether wind,"</strong> just like a car moving on a still day creates its own "wind."
+                </p>
+                <p class="font-semibold text-blue-700 mt-4">
+                    <strong>The Goal:</strong> The Michelson-Morley experiment was designed to <em>detect this aether wind</em>.
+                </p>
+            </section>
+
+            <!-- Section 2: The Experiment -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">2. 🔬 The Experiment: How to Catch the "Wind"</h2>
+                <p class="mb-4">
+                    Albert Michelson and Edward Morley built a clever device: the <strong>Michelson Interferometer</strong>.
+                </p>
+                
+                <!-- Image Placeholder for Interferometer -->
+                <div class="my-6 bg-gray-100 p-4 rounded-lg text-center">
+                    <img src="https://placehold.co/600x300/E2E8F0/4A5568?text=Michelson+Interferometer+Schematic" 
+                         alt="Schematic of the Michelson Interferometer" 
+                         class="w-full max-w-lg mx-auto rounded-md shadow-md"
+                         onerror="this.src='https://placehold.co/600x300/E2E8F0/4A5568?text=Image:+Michelson+Interferometer+Diagram';">
+                    <p class="text-sm text-gray-600 mt-2">A diagram showing the light source, beam splitter, two perpendicular arms with mirrors, and the detector.</p>
+                </div>
+
+                <ol class="list-decimal list-inside space-y-2 mb-4">
+                    <li><strong>Split the Light:</strong> A single light beam is split into two perpendicular beams (Beam A and Beam B).</li>
+                    <li><strong>The Race:</strong>
+                        <ul class="list-disc list-inside ml-6 mt-1">
+                            <li><strong>Beam A</strong> travels parallel to the "aether wind."</li>
+                            <li><strong>Beam B</strong> travels perpendicular to the "aether wind."</li>
+                        </ul>
+                    </li>
+                    <li><strong>Recombine:</strong> The beams bounce off mirrors, return, and are recombined at a detector.</li>
+                </ol>
+
+                <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-2">The Classical Prediction (What They <em>Expected</em> to See)</h3>
+                <p class="mb-4">
+                    Think of it like two boats racing in a river (the "aether wind"):
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700 mb-4">
+                    <li><strong>Boat A (Parallel):</strong> Goes "upstream" (slowed by the current) and "downstream" (sped up by the current).</li>
+                    <li><strong>Boat B (Perpendicular):</strong> Goes "across stream" and back.</li>
+                </ul>
+                <p class="mb-4">
+                    A key (and non-obvious) fact of this analogy is that <strong>the upstream/downstream trip <em>always</em> takes more time than the across-stream trip.</strong>
+                </p>
+                <p class="mb-4">
+                    Therefore, they predicted: <strong>Beam A and Beam B will take different amounts of time to return.</strong>
+                </p>
+                <p>
+                    When the two "out-of-sync" beams recombined, they should create an <strong>interference pattern</strong> (a "fringe pattern"). If they then <em>rotated the entire machine by 90°</em>, the roles of the arms would swap, and the fringe pattern should <em>visibly shift</em>.
+                </p>
+            </section>
+
+            <!-- Section 3: The Null Result -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">3. 😱 The Shocking "Null Result"</h2>
+                <p class="mb-4">
+                    Here's what they found:
+                </p>
+                <p class="text-3xl font-bold text-center text-red-600 my-6">
+                    Absolutely nothing.
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>There was no initial interference pattern.</li>
+                    <li>There was no "fringe shift" when the machine was rotated.</li>
+                    <li>There was no change when they tried the experiment at different times of the year.</li>
+                </ul>
+                <p class="mt-4">
+                    This is the <strong>"null result."</strong> It meant there was no "aether wind" to detect. This was a profound crisis for physics.
+                </p>
+            </section>
+
+            <!-- Section 4: Einstein's Solution -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">4. 💡 Einstein's Solution & Its Importance</h2>
+                <p class="mb-4">
+                    The "null result" was a puzzle. But Albert Einstein took a radical approach. Instead of trying to save the aether, he made the null result a <strong>foundational principle</strong> of his new theory.
+                </p>
+                <p class="mb-4">
+                    His <strong>Second Postulate of Special Relativity</strong> states:
+                </p>
+                <blockquote class="border-l-4 border-blue-500 bg-blue-50 p-4 my-6">
+                    <p class="font-semibold italic text-lg text-gray-900">
+                        "The speed of light in a vacuum (`c`) is the same for all observers in all inertial reference frames, regardless of the motion of the source or the observer."
+                    </p>
+                </blockquote>
+                <p class="mb-4">
+                    This simple (but revolutionary) statement perfectly explains the M-M experiment:
+                </p>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>The reason there's no "aether wind" is because there is <strong>no aether</strong>.</li>
+                    <li>The speed of light in Beam A is <em>always</em> `c`.</li>
+                    <li>The speed of light in Beam B is <em>always</em> `c`.</li>
+                    <li>It doesn't matter how the Earth is moving. Both beams will <em>always</em> travel at `c`, take the <em>same</em> amount of time, and return <em>in sync</em>.</li>
+                </ul>
+                <p class="mt-4">
+                    The Michelson-Morley experiment is the <strong>primary experimental evidence</strong> that supports this Second Postulate.
+                </p>
+            </section>
+
+            <!-- Section 5: How the M-M Result FORCES Relativity -->
+            <section>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">5. 🔗 How the M-M Result FORCES Relativity</h2>
+                <p class="mb-4">
+                    This is the key application for your IB course. If you accept the M-M result (that `c` is constant), you are <em>forced</em> to conclude that space and time themselves must be flexible.
+                </p>
+
+                <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-2">1. Time Dilation (The Perpendicular Arm)</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700 mb-4">
+                    <li>Look at the arm <em>perpendicular</em> to the motion.</li>
+                    <li>As the interferometer moves, the light (Beam B) has to travel a <em>longer, diagonal path</em> to catch the moving mirror.</li>
+                    <li>This is the <strong>exact same logic as the "light clock" thought experiment.</strong></li>
+                    <li>Since `c` is constant (from M-M) and the light traveled a <em>longer distance</em>, it <strong>must have taken more time</strong>.</li>
+                    <li><strong>Conclusion:</strong> Time itself must slow down for the moving experiment <strong>(Time Dilation)</strong>.</li>
+                </ul>
+                
+                <!-- Image Placeholder for Light Clock -->
+                <div class="my-6 bg-gray-100 p-4 rounded-lg text-center">
+                    <img src="https://placehold.co/600x250/E2E8F0/4A5568?text=Light+Clock+Thought+Experiment" 
+                         alt="Diagram of the light clock thought experiment" 
+                         class="w-full max-w-lg mx-auto rounded-md shadow-md"
+                         onerror="this.src='https://placehold.co/600x250/E2E8F0/4A5568?text=Image:+Light+Clock+Diagram';">
+                    <p class="text-sm text-gray-600 mt-2">A stationary light clock vs. a moving light clock, showing the diagonal path of light.</p>
+                </div>
+
+
+                <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-2">2. Length Contraction (The Parallel Arm)</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Okay, so time has dilated (slowed down) for the <em>whole</em> experiment.</li>
+                    <li>But for the M-M "null result" to be true, the time for *both* arms must still be equal.</li>
+                    <li>The <em>only</em> way for the parallel arm (Beam A) to take the <em>same</em> (now dilated) amount of time is if its <strong>length physically contracts</strong> in the direction of motion.</li>
+                    <li><strong>Conclusion:</strong> The experiment's arm in the direction of motion must get shorter <strong>(Length Contraction)</strong>.</li>
+                </ul>
+            </section>
+
+            <!-- IB Takeaway Section -->
+            <section class="bg-blue-50 border border-blue-200 rounded-lg p-6 mt-10">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">✅ Your IB Takeaway</h2>
+                <ul class="list-disc list-inside space-y-3 text-gray-900">
+                    <li><strong>What it was:</strong> An experiment designed to find the "aether wind."</li>
+                    <li><strong>What it found:</strong> A "null result" (no aether wind).</li>
+                    <li><strong>Why it's important:</strong> It is the key <strong>experimental proof</strong> for Einstein's <strong>Second Postulate</strong> (the speed of light is constant for all observers).</li>
+                    <li><strong>What it implies:</strong> The <em>only</em> way for the speed of light to be constant (and produce the null result) is if a moving object's <strong>time dilates</strong> and its <strong>length contracts</strong>. The two effects perfectly cancel each other out.</li>
+                </ul>
+            </section>
+
+        </article>
+    </div>
+</body>
+</html>
